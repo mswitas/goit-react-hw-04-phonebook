@@ -8,6 +8,6 @@ export const Contact = ({ id, name, number, onClick }) => (
 Contact.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  number: PropTypes.number.isRequired,
+  number: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
 }
