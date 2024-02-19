@@ -21,7 +21,6 @@ export const App = () => {
       alert(`${name} is alreadry in contacts.`);
     } else {
       setContacts((prev) => [...prev, contact]);
-      localStorage.setItem("contacts", JSON.stringify(contact));
       form.reset();
     }
   }
